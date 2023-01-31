@@ -30,33 +30,33 @@ Jan 26, 2023 & Runze Zhao & First draft\\
 \section{Problem Statement}
 
 \subsection{Problem}
-Economic subjects are always important parts of people's lives, specially during the ongoing recession period. People focus more and more on the behavior of different economic markets. Better understand of the relations between market indicators and how they impact daily lives is critical. 
-Real estate market is one of the most important indicator of how well the current economic is and it is close to everyone's daily life. This software is used to understand and predict the trend of Real estate market and evaluate the stability of the current market. 
+Real estate market has always been an important factor to the economy. During the ongoing recession period, people pay more and more attention to the change of housing market; Especially for the ones who are going to sell or buy a house. The price tags on the properties are commonly based on the nearby sold houses. This approach lacks of scientific measurements. Sellers are buyers are very limited to the tools or models that could predict the price in the near future. The demand for such tool is growing rapidly. There are many regression techniques used in machine learning could be used to predict future house price based on the historical data sets. Each one of them could output different predictions, which can be used by related stakeholders when they sell or buy a house.
+
 \subsection{Inputs and Outputs}
 \subsubsection{Inputs}
 \begin{itemize}
-    \item Different economic index such as CPI, Unemployment rate and GDP
-    \item Datasets of current Real estate market, sales, average price etc\
+    \item Data sets of historical sold houses
 \end{itemize}
 
 \subsubsection{Outputs}
 \begin{itemize}
-    \item Prediction of percentage of short-term market change regarding number of sales and average price
-    \item Evaluation of the stability of current market
+    \item Prediction of multiple linear regression model
+    \item Prediction of LASSO regression model
+    \item Prediction of gradient boosting regression model
 \end{itemize}
 
 \subsection{Stakeholders}
 \begin{itemize}
     \item Real estate brokers and agents
-    \item Economist 
+    \item House buyers and sellers
 \end{itemize}
 
 \subsection{Environment}
 The software can be deployed on any OS
 
 \section{Goals}
-The software will give people better understand of current and future Real estate market
+The software will give people better prediction of house prices in the near future
 
 \section{Stretch Goals}
-Give prediction of long term Real estate market change
+Find which regression model has the most accurate prediction
 \end{document}
